@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-toggler {
+  background-color: #000000;
+  opacity: 80%;
+  width: 4em;
+  height: 0.7em;
+  margin-top: 1.5em;
+}
+
+.navbar-brand {
+  position: relative;
+  left: 0.2em;
+  text-shadow: 10px 10px 5px grey;
+}
+
+.navbar-brand:hover {
+  color: #414140 !important;
+}
+
+.navbar-collapse {
+  text-align: center;
+  position: relative;
+  right: 0.7em;
+  margin-top: 1em;
+}
+
+.navbar-nav {
+  position: relative;
+  left: 0.2em;
+}
+
+.navbar-nav li {
+  margin: 0.5em;
+}
+
+.nav-link:hover {
+  color: #C0C3CA !important;
+  border-bottom: 0.1px solid #C0C3CA;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+header {
+  height: 24em;
+  background: linear-gradient(7deg, #343335, #000000);
+}
+
+.carousel {
+  position: relative;
+  top: 1.7em;
+  left: 1.5em;
+  width: 100%;
+  text-align: center;
+  font-size: 2.5em;
+  line-height: 3.75em;
+  height: 3.75em;
+}
+
+.carousel .pre {
+  position: absolute;
+  top: 0;
+  right: 54.5%;
+  height: 3.75em;
+  text-shadow: 3px 3px 3px #000;
+  margin-right: 0.5em;
+}
+
+.carousel .change_outer {
+  position: absolute;
+  top: 0;
+  left: 46%;
+  text-align: left;
+  height: 3.75em;
+  overflow: hidden;
+}
+
+.carousel .change_outer .change_inner {
+  position: relative;
+  animation: rotate 8s ease-in-out infinite;
+}
+
+.carousel .change_outer .element {
+  display: block;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px #000;
+}
+
+@keyframes rotate {
+  0%, 20% {
+    transform: translateY(0);
+  }
+  25%, 45% {
+    transform: translateY(-3.75em);
+  }
+  50%, 70% {
+    transform: translateY(-7.5em);
+  }
+  75%, 95% {
+    transform: translateY(-11.25em);
+  }
+  100% {
+    transform: translateY(-15em);
+  }
+}
+
+.bio .col {
+  padding-right: 5em;
+}
+
+.bio img {
+  border-radius: 3%;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.bio p {
+  border-bottom: 1px solid #000;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+}
+
+.skill h1 {
+  padding-left: 0.7em;
+  position: relative;
+  top: 1.3em;
+  right: 5em;
+  text-shadow: 10px 10px 5px grey;
+}
+
+.skill li:first-child {
+  text-shadow: 10px 10px 5px grey;
+}
+
+.skill li {
+  font-size: 2em;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  padding: 0.5em;
+}
+
+.card {
+  border: none !important;
+}
+
+.word-rotate {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 10em;
+  height: 1em;
+  position: relative;
+  display: inline-block;
+}
+
+.word-rotate li {
+  height: 1em;
+  padding: 2em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 4s;
+}
+
+footer .col-lg {
+  border-right: 1px solid #414140;
+  border-left: 1px solid #414140;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.2em;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2E3136;
+}
