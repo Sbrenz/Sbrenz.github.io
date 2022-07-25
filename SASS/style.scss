@@ -75,6 +75,7 @@ $scrollbar-thumb-bg: #2E3136;
     height: 24em;
   
     background: $header-bg;
+  
   }
 
   .carousel {
@@ -137,6 +138,49 @@ $scrollbar-thumb-bg: #2E3136;
     }
     100% {
       transform: translateY($fontSize * -6);
+    }
+  }
+
+  .carousel-m{
+
+      margin-top: 0.7em;
+      margin-bottom: 0;
+      width: 100%;
+      background: $header-bg;
+
+      text-align: center;
+      font-size: $fontSize;
+      line-height: 2.5em * 1.5;
+      height: 2.5em * 1.5;
+      
+      .change_outer-m {
+
+        position: relative;
+        left: 1em;
+
+        text-align: left;
+        height: 2.5em * 1.5;
+
+        overflow: hidden;
+        
+        .change_inner-m {
+  
+          position: relative;
+          animation: rotate 8s ease-in-out infinite;
+        }
+        
+        .element {
+          
+          display: block;
+          font-weight: 400;
+          text-shadow: 2px 2px 2px #000;
+        }
+
+        .e-1,.e-2{
+
+          position: relative;
+          right: 0.7em;
+        }
     }
   }
 
@@ -208,7 +252,7 @@ $scrollbar-thumb-bg: #2E3136;
     }
     li:last-child{
       position: absolute;
-      right: 0.2em;
+      right: 0.7em;
     }
   }
   
@@ -216,8 +260,7 @@ $scrollbar-thumb-bg: #2E3136;
 
     .col-lg{
 
-      border-right: 1px solid #414140;
-      border-left: 1px solid #414140;
+       border-left: 1px solid #414140;
     }
 
     a{
@@ -226,8 +269,6 @@ $scrollbar-thumb-bg: #2E3136;
 
     .fa-linkedin{
 
-      position: relative;
-      right: 0.3em;
 
     }
   }

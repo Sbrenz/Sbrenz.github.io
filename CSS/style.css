@@ -112,6 +112,41 @@ header {
   }
 }
 
+.carousel-m {
+  margin-top: 0.7em;
+  margin-bottom: 0;
+  width: 100%;
+  background: linear-gradient(7deg, #343335, #000000);
+  text-align: center;
+  font-size: 2.5em;
+  line-height: 3.75em;
+  height: 3.75em;
+}
+
+.carousel-m .change_outer-m {
+  position: relative;
+  left: 1em;
+  text-align: left;
+  height: 3.75em;
+  overflow: hidden;
+}
+
+.carousel-m .change_outer-m .change_inner-m {
+  position: relative;
+  animation: rotate 8s ease-in-out infinite;
+}
+
+.carousel-m .change_outer-m .element {
+  display: block;
+  font-weight: 400;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.carousel-m .change_outer-m .e-1, .carousel-m .change_outer-m .e-2 {
+  position: relative;
+  right: 0.7em;
+}
+
 .bio .col {
   padding-right: 5em;
 }
@@ -166,21 +201,15 @@ header {
 
 .word-rotate li:last-child {
   position: absolute;
-  right: 0.2em;
+  right: 0.7em;
 }
 
 footer .col-lg {
-  border-right: 1px solid #414140;
   border-left: 1px solid #414140;
 }
 
 footer a {
   text-decoration: none;
-}
-
-footer .fa-linkedin {
-  position: relative;
-  right: 0.3em;
 }
 
 /* width */
