@@ -1,8 +1,12 @@
-
-$fontSize: 2.5em;
-$header-bg: linear-gradient(7deg,#343335,#000000);
+$background-color: #F0E9CA;
+$header-bg: linear-gradient(7deg,#343335, #1d1515);
+$skills-bg-color: linear-gradient(13deg,#F0E9CA,#a79393);
+$footer-bg: linear-gradient(7deg,#343335, #1d1515);
 $toggler-bg: #000000;
 $scrollbar-thumb-bg: #2E3136;
+$fontSize: 2.5em;
+
+
 
 
   *{
@@ -14,6 +18,14 @@ $scrollbar-thumb-bg: #2E3136;
   }
   html, body{
     overflow-x: hidden;
+    background-color: $background-color;
+  }
+  
+  hr{
+    
+    border:1px dotted #343335;
+
+
   }
   
   .navbar-toggler{
@@ -25,6 +37,11 @@ $scrollbar-thumb-bg: #2E3136;
     height: 0.7em;
 
     margin-top: 1.5em;
+  }
+
+  .navbar-text{
+
+    padding-top: 2em;
   }
 
   .navbar-brand{
@@ -73,6 +90,7 @@ $scrollbar-thumb-bg: #2E3136;
   header{
 
     height: 24em;
+    margin-top: 2em;
   
     background: $header-bg;
   
@@ -143,7 +161,7 @@ $scrollbar-thumb-bg: #2E3136;
 
   .carousel-m{
 
-      margin-top: 0.7em;
+      margin-top: 3em;
       margin-bottom: 0;
       width: 100%;
       background: $header-bg;
@@ -186,7 +204,7 @@ $scrollbar-thumb-bg: #2E3136;
 
   .bio{
 
-    
+    margin: 5em 0 5em 0;
 
     .col{
 
@@ -209,7 +227,7 @@ $scrollbar-thumb-bg: #2E3136;
 
   .skill{
 
-    
+    padding: 2em 0 3em 0;
 
     h1{
       padding-left: 0.7em;
@@ -257,6 +275,8 @@ $scrollbar-thumb-bg: #2E3136;
   }
   
   footer{
+
+    background: $footer-bg;
 
     .col-lg{
 

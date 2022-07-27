@@ -7,6 +7,11 @@
 
 html, body {
   overflow-x: hidden;
+  background-color: #F0E9CA;
+}
+
+hr {
+  border: 1px dotted #343335;
 }
 
 .navbar-toggler {
@@ -15,6 +20,10 @@ html, body {
   width: 4em;
   height: 0.7em;
   margin-top: 1.5em;
+}
+
+.navbar-text {
+  padding-top: 2em;
 }
 
 .navbar-brand {
@@ -51,7 +60,8 @@ html, body {
 
 header {
   height: 24em;
-  background: linear-gradient(7deg, #343335, #000000);
+  margin-top: 2em;
+  background: linear-gradient(7deg, #343335, #1d1515);
 }
 
 .carousel {
@@ -113,10 +123,10 @@ header {
 }
 
 .carousel-m {
-  margin-top: 0.7em;
+  margin-top: 3em;
   margin-bottom: 0;
   width: 100%;
-  background: linear-gradient(7deg, #343335, #000000);
+  background: linear-gradient(7deg, #343335, #1d1515);
   text-align: center;
   font-size: 2.5em;
   line-height: 3.75em;
@@ -147,6 +157,10 @@ header {
   right: 0.7em;
 }
 
+.bio {
+  margin: 5em 0 5em 0;
+}
+
 .bio .col {
   padding-right: 5em;
 }
@@ -160,6 +174,10 @@ header {
   border-bottom: 1px solid #000;
   padding-top: 0.5em;
   padding-bottom: 1em;
+}
+
+.skill {
+  padding: 2em 0 3em 0;
 }
 
 .skill h1 {
@@ -202,6 +220,10 @@ header {
 .word-rotate li:last-child {
   position: absolute;
   right: 0.7em;
+}
+
+footer {
+  background: linear-gradient(7deg, #343335, #1d1515);
 }
 
 footer .col-lg {
