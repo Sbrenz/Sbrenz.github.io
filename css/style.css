@@ -222,6 +222,21 @@ header {
   right: 0.7em;
 }
 
+.c-form {
+  padding: 4em;
+  background: linear-gradient(7deg, #343335, #1d1515);
+  margin: 2em 0 0.2em 0;
+}
+
+.c-form .btn {
+  background-color: #343335;
+  color: #F0E9CA;
+}
+
+.c-form .btn:hover {
+  opacity: 50%;
+}
+
 footer {
   background: linear-gradient(7deg, #343335, #1d1515);
 }
@@ -232,6 +247,11 @@ footer .col-lg {
 
 footer a {
   text-decoration: none;
+}
+
+footer .btn {
+  background-color: #F0E9CA;
+  margin-bottom: 2em;
 }
 
 /* width */

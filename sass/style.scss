@@ -9,7 +9,6 @@ $fontSize: 2.5em;
 
 
 
-
   *{
     margin: 0;
     padding: 0;
@@ -30,8 +29,6 @@ $fontSize: 2.5em;
   }
   
   .navbar-toggler{
-
-    
 
     background-color: $toggler-bg;
     opacity: 80%;
@@ -276,24 +273,6 @@ $fontSize: 2.5em;
       right: 0.7em;
     }
   }
-
-  .c-form{
-
-    padding: 4em;
-    background: $footer-bg;
-    margin: 2em 0 0.2em 0;
-
-    .btn{
-
-      background-color: #343335;
-      color:#F0E9CA;
-    }
-
-    .btn:hover{
-
-      opacity: 50%;
-    }
-  }
   
   footer{
 
@@ -305,16 +284,14 @@ $fontSize: 2.5em;
     }
 
     a{
-
       text-decoration: none;
     }
-    .btn{
 
-      background-color: $background-color;
-      margin-bottom: 2em;
+    .fa-linkedin{
+
+
     }
   }
-
 
   /* width */
   ::-webkit-scrollbar {
