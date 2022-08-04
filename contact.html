@@ -45,7 +45,7 @@
                     contactForm.reset();
                     success.innerHTML = "Successfully Sent";
                     success.style.backgroundColor = "green";
-                    setInterval(() => window.location.reload(true), 3000);
+                    setInterval(() => window.location.reload(true), 1000);
 
                 }, function(error) {
                     console.log('FAILED...', error);
@@ -59,7 +59,7 @@
   
     <!-- nav -->
 
-    <nav id="nav" class="animated fadeInDown nav navbar navbar-expand-lg navbar-light ">
+    <nav id="nav" class="animated fadeInDown nav navbar navbar-expand-lg navbar-light">
 
       <div class="container navbar-text navbar-nav">
 
@@ -105,7 +105,7 @@
 
         <div class="container d-flex justify-content-center flex-column">
 
-            <div class="">
+            <div>
 
                 <label class="form-label my-1">Name</label>
 
@@ -113,7 +113,7 @@
 
             </div>
 
-            <div class="">
+            <div >
 
                 <label class="form-label my-1">Email</label>
 
@@ -121,11 +121,11 @@
 
             </div>
 
-            <div class="">
+            <div>
 
                 <label class="my-1 form-label">Message</label>
 
-                <textarea name="message" placeholder="Tell me something !" class="form-control"></textarea>
+                <textarea style="resize: none;" name="message" placeholder="Tell me something !" class="form-control"></textarea>
 
                 <input type="submit" id="send-button" value="Send"  class="btn my-3">
 

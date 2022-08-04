@@ -17,16 +17,10 @@ $fontSize: 2.5em;
 
     font-family: 'Quicksand', sans-serif;
   }
+  
   html, body{
     overflow-x: hidden;
     background-color: $background-color;
-  }
-  
-  hr{
-    
-    border:1px dotted #343335;
-
-
   }
   
   .navbar-toggler{

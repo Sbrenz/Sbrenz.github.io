@@ -10,10 +10,6 @@ html, body {
   background-color: #F0E9CA;
 }
 
-hr {
-  border: 1px dotted #343335;
-}
-
 .navbar-toggler {
   background-color: #000000;
   opacity: 80%;
