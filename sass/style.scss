@@ -9,6 +9,7 @@ $fontSize: 2.5em;
 
 
 
+
   *{
     margin: 0;
     padding: 0;
@@ -16,19 +17,15 @@ $fontSize: 2.5em;
 
     font-family: 'Quicksand', sans-serif;
   }
+  
   html, body{
     overflow-x: hidden;
     background-color: $background-color;
   }
   
-  hr{
-    
-    border:1px dotted #343335;
-
-
-  }
-  
   .navbar-toggler{
+
+    
 
     background-color: $toggler-bg;
     opacity: 80%;
@@ -273,6 +270,24 @@ $fontSize: 2.5em;
       right: 0.7em;
     }
   }
+
+  .c-form{
+
+    padding: 4em;
+    background: $footer-bg;
+    margin: 2em 0 0.2em 0;
+
+    .btn{
+
+      background-color: #343335;
+      color:#F0E9CA;
+    }
+
+    .btn:hover{
+
+      opacity: 50%;
+    }
+  }
   
   footer{
 
@@ -284,14 +299,16 @@ $fontSize: 2.5em;
     }
 
     a{
+
       text-decoration: none;
     }
+    .btn{
 
-    .fa-linkedin{
-
-
+      background-color: $background-color;
+      margin-bottom: 2em;
     }
   }
+
 
   /* width */
   ::-webkit-scrollbar {

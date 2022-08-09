@@ -101,7 +101,7 @@
     
     <!--Contact form-->
 
-    <form id="contact-form" class="container-fluid c-form text-light">
+    <form id="contact-form" class="animated fadeInDown container-fluid c-form text-light">
 
         <div class="container d-flex justify-content-center flex-column">
 
@@ -109,7 +109,7 @@
 
                 <label class="form-label my-1">Name</label>
 
-                <input type="text" name="from_name" placeholder="Please insert your Name" class="form-control">
+                <input required="required" type="text" name="from_name" placeholder="Please insert your Name" class="form-control">
 
             </div>
 
@@ -117,7 +117,7 @@
 
                 <label class="form-label my-1">Email</label>
 
-                <input type="email" name="user_email" placeholder="Please insert your email" class="form-control">
+                <input required="required" type="email" name="user_email" placeholder="Please insert your email" class="form-control">
 
             </div>
 
@@ -125,7 +125,7 @@
 
                 <label class="my-1 form-label">Message</label>
 
-                <textarea style="resize: none;" name="message" placeholder="Tell me something !" class="form-control"></textarea>
+                <textarea required="required" style="resize: none;" name="message" placeholder="Tell me something !" class="form-control"></textarea>
 
                 <input type="submit" id="send-button" value="Send"  class="btn my-3">
 
