@@ -320,4 +320,14 @@ $fontSize: 2.5em;
     background: $scrollbar-thumb-bg;
   } 
 
-
+  .frm{
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 0.1em;
+    background: $footer-bg;
+  }
+  
+  .frm1{
+    width: 40em;
+  }

@@ -220,7 +220,7 @@ header {
 
 .c-form {
   padding: 4em;
-  background: linear-gradient(7deg, #343335, #1d1515);
+  
   margin: 2em 0 0.2em 0;
 }
 
@@ -258,4 +258,16 @@ footer .btn {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #2E3136;
+}
+
+.frm{
+  display: flex;
+  justify-content: center;
+  
+  margin-bottom: 0.1em;
+  background: linear-gradient(7deg,#343335, #1d1515);;
+}
+
+.frm1{
+  width: 40em;
 }
